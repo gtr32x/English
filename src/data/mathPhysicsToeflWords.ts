@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 数学和物理类托福词汇 (ID: 25001-25030)
 export const mathPhysicsToeflWords: Word[] = [

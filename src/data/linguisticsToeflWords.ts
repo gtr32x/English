@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 语言学和文学类托福词汇 (ID: 27001-27030)
 export const linguisticsToeflWords: Word[] = [

@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 心理学和社会科学类托福词汇 (ID: 15001-15030)
 export const psychologyToeflWords: Word[] = [

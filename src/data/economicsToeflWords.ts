@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 经济和金融类托福词汇 (ID: 20001-20030)
 export const economicsToeflWords: Word[] = [

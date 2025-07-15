@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 生物和化学类托福词汇 (ID: 24001-24030)
 export const scienceToeflWords: Word[] = [

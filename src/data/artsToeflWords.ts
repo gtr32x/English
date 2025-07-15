@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 艺术和文学类托福词汇 (ID: 21001-21030)
 export const artsToeflWords: Word[] = [

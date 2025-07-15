@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 社会学和人类学类托福词汇 (ID: 26001-26030)
 export const sociologyToeflWords: Word[] = [

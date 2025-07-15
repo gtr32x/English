@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 法律和政治类托福词汇 (ID: 18001-18030)
 export const legalToeflWords: Word[] = [

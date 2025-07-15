@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 历史和社会科学类托福词汇 (ID: 23001-23030)
 export const historyToeflWords: Word[] = [

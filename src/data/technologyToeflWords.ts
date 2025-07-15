@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 技术和工程类托福词汇 (ID: 17001-17030)
 export const technologyToeflWords: Word[] = [

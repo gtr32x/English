@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 教育和哲学类托福词汇 (ID: 19001-19030)
 export const educationToeflWords: Word[] = [

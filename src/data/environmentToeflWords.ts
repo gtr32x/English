@@ -1,4 +1,4 @@
-import { Word } from '../types/word';
+import { Word } from './toeflWords';
 
 // 环境和地理类托福词汇 (ID: 22001-22030)
 export const environmentToeflWords: Word[] = [
