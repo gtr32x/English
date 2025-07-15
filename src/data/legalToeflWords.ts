@@ -434,13 +434,13 @@ export const getHighFrequencyLegalWords = () =>
 
 // 按难度筛选法律政治词汇
 export const getAdvancedLegalWords = () => 
-  legalToeflWords.filter(word => word.difficulty === 'advanced');
+  legalToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateLegalWords = () => 
-  legalToeflWords.filter(word => word.difficulty === 'intermediate');
+  legalToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerLegalWords = () => 
-  legalToeflWords.filter(word => word.difficulty === 'beginner');
+  legalToeflWords.filter(word => word.difficulty === 'easy');
 
 // 按法庭程序筛选词汇
 export const getCourtProcedureWords = () => 

@@ -434,13 +434,13 @@ export const getHighFrequencyEconomicsWords = () =>
 
 // 按难度筛选经济金融词汇
 export const getAdvancedEconomicsWords = () => 
-  economicsToeflWords.filter(word => word.difficulty === 'advanced');
+  economicsToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateEconomicsWords = () => 
-  economicsToeflWords.filter(word => word.difficulty === 'intermediate');
+  economicsToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerEconomicsWords = () => 
-  economicsToeflWords.filter(word => word.difficulty === 'beginner');
+  economicsToeflWords.filter(word => word.difficulty === 'easy');
 
 // 按政策类型筛选词汇
 export const getGovernmentPolicyWords = () => 

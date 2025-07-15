@@ -439,13 +439,13 @@ export const getHighFrequencyEducationWords = () =>
 
 // 按难度筛选教育哲学词汇
 export const getAdvancedEducationWords = () => 
-  educationToeflWords.filter(word => word.difficulty === 'advanced');
+  educationToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateEducationWords = () => 
-  educationToeflWords.filter(word => word.difficulty === 'intermediate');
+  educationToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerEducationWords = () => 
-  educationToeflWords.filter(word => word.difficulty === 'beginner');
+  educationToeflWords.filter(word => word.difficulty === 'easy');
 
 // 按概念类型筛选词汇
 export const getAbstractConceptWords = () => 

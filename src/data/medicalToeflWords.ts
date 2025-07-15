@@ -423,13 +423,13 @@ export const getHighFrequencyMedicalWords = () =>
 
 // 按难度筛选医学词汇
 export const getAdvancedMedicalWords = () => 
-  medicalToeflWords.filter(word => word.difficulty === 'advanced');
+  medicalToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateMedicalWords = () => 
-  medicalToeflWords.filter(word => word.difficulty === 'intermediate');
+  medicalToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerMedicalWords = () => 
-  medicalToeflWords.filter(word => word.difficulty === 'beginner');
+  medicalToeflWords.filter(word => word.difficulty === 'easy');
 
 // 按治疗类型筛选词汇
 export const getTreatmentWords = () => 

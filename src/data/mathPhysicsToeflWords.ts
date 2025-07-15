@@ -455,13 +455,13 @@ export const getHighFrequencyMathPhysicsWords = () =>
 
 // 按难度筛选数学物理词汇
 export const getAdvancedMathPhysicsWords = () => 
-  mathPhysicsToeflWords.filter(word => word.difficulty === 'advanced');
+  mathPhysicsToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateMathPhysicsWords = () => 
-  mathPhysicsToeflWords.filter(word => word.difficulty === 'intermediate');
+  mathPhysicsToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerMathPhysicsWords = () => 
-  mathPhysicsToeflWords.filter(word => word.difficulty === 'beginner');
+  mathPhysicsToeflWords.filter(word => word.difficulty === 'easy');
 
 // 按基础概念筛选词汇
 export const getBasicMathWords = () => 

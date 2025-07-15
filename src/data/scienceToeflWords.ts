@@ -456,13 +456,13 @@ export const getHighFrequencyScienceWords = () =>
 
 // 按难度筛选科学词汇
 export const getAdvancedScienceWords = () => 
-  scienceToeflWords.filter(word => word.difficulty === 'advanced');
+  scienceToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateScienceWords = () => 
-  scienceToeflWords.filter(word => word.difficulty === 'intermediate');
+  scienceToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerScienceWords = () => 
-  scienceToeflWords.filter(word => word.difficulty === 'beginner');
+  scienceToeflWords.filter(word => word.difficulty === 'easy');
 
 // 按分子生物学筛选词汇
 export const getMolecularBiologyWords = () => 

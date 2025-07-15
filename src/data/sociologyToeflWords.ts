@@ -450,13 +450,13 @@ export const getHighFrequencySociologyWords = () =>
 
 // 按难度筛选社会学词汇
 export const getAdvancedSociologyWords = () => 
-  sociologyToeflWords.filter(word => word.difficulty === 'advanced');
+  sociologyToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateSociologyWords = () => 
-  sociologyToeflWords.filter(word => word.difficulty === 'intermediate');
+  sociologyToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerSociologyWords = () => 
-  sociologyToeflWords.filter(word => word.difficulty === 'beginner');
+  sociologyToeflWords.filter(word => word.difficulty === 'easy');
 
 // 按社会运动筛选词汇
 export const getSocialMovementWords = () => 

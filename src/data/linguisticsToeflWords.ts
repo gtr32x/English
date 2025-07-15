@@ -457,13 +457,13 @@ export const getHighFrequencyLinguisticsWords = () =>
 
 // 按难度筛选语言学词汇
 export const getAdvancedLinguisticsWords = () => 
-  linguisticsToeflWords.filter(word => word.difficulty === 'advanced');
+  linguisticsToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateLinguisticsWords = () => 
-  linguisticsToeflWords.filter(word => word.difficulty === 'intermediate');
+  linguisticsToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerLinguisticsWords = () => 
-  linguisticsToeflWords.filter(word => word.difficulty === 'beginner');
+  linguisticsToeflWords.filter(word => word.difficulty === 'easy');
 
 // 按应用语言学筛选词汇
 export const getAppliedLinguisticsWords = () => 

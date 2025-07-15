@@ -449,10 +449,10 @@ export const getAdvancedEnvironmentWords = () =>
   environmentToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateEnvironmentWords = () => 
-  environmentToeflWords.filter(word => word.difficulty === 'intermediate');
+  environmentToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerEnvironmentWords = () => 
-  environmentToeflWords.filter(word => word.difficulty === 'beginner');
+  environmentToeflWords.filter(word => word.difficulty === 'easy');
 
 // 按生态系统类型筛选词汇
 export const getTerrestrialEcosystemWords = () => 

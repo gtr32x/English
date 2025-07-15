@@ -423,10 +423,10 @@ export const getHighFrequencyPsychologyWords = () =>
 
 // 按难度筛选心理学词汇
 export const getAdvancedPsychologyWords = () => 
-  psychologyToeflWords.filter(word => word.difficulty === 'advanced');
+  psychologyToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediatePsychologyWords = () => 
-  psychologyToeflWords.filter(word => word.difficulty === 'intermediate');
+  psychologyToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerPsychologyWords = () => 
-  psychologyToeflWords.filter(word => word.difficulty === 'beginner');
+  psychologyToeflWords.filter(word => word.difficulty === 'easy');
