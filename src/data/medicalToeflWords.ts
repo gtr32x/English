@@ -1,4 +1,4 @@
-import { Word } from './toeflWords';
+import { Word } from '../types/word';
 
 // 医学和健康类托福词汇 (ID: 16001-16030)
 export const medicalToeflWords: Word[] = [

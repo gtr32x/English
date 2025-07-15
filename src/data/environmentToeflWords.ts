@@ -1,4 +1,4 @@
-import { Word } from './toeflWords';
+import { Word } from '../types/word';
 
 // 环境和地理类托福词汇 (ID: 22001-22030)
 export const environmentToeflWords: Word[] = [
@@ -9,9 +9,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a biological community of interacting organisms and their physical environment',
     translation: '生态系统',
-    example: 'The rainforest ecosystem supports incredible biodiversity.',
-    difficulty: 'intermediate',
-    frequency: 'very_high',
+    examples: ['The rainforest ecosystem supports incredible biodiversity.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['biome', 'habitat', 'environment'],
     antonyms: ['artificial environment', 'sterile environment']
   },
@@ -22,9 +22,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the variety of life in the world or in a particular habitat',
     translation: '生物多样性',
-    example: 'Conservation efforts aim to protect biodiversity in threatened regions.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Conservation efforts aim to protect biodiversity in threatened regions.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['biological diversity', 'species variety', 'ecological richness'],
     antonyms: ['monoculture', 'species uniformity', 'biological poverty']
   },
@@ -35,9 +35,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the ability to be maintained at a certain rate or level',
     translation: '可持续性',
-    example: 'The company focuses on sustainability in all its operations.',
-    difficulty: 'intermediate',
-    frequency: 'very_high',
+    examples: ['The company focuses on sustainability in all its operations.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['durability', 'maintainability', 'long-term viability'],
     antonyms: ['unsustainability', 'depletion', 'exhaustion']
   },
@@ -48,9 +48,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the action of conserving something, especially the environment',
     translation: '保护，保存',
-    example: 'Wildlife conservation is essential for maintaining ecological balance.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Wildlife conservation is essential for maintaining ecological balance.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['preservation', 'protection', 'safeguarding'],
     antonyms: ['destruction', 'waste', 'depletion']
   },
@@ -61,9 +61,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the action of clearing a wide area of trees',
     translation: '森林砍伐',
-    example: 'Deforestation contributes significantly to climate change.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Deforestation contributes significantly to climate change.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['forest clearing', 'tree removal', 'woodland destruction'],
     antonyms: ['reforestation', 'afforestation', 'tree planting']
   },
@@ -74,9 +74,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the presence in the environment of substances with harmful effects',
     translation: '污染',
-    example: 'Air pollution in major cities poses serious health risks.',
-    difficulty: 'beginner',
-    frequency: 'very_high',
+    examples: ['Air pollution in major cities poses serious health risks.'],
+    difficulty: 'easy',
+    frequency: 5,
     synonyms: ['contamination', 'toxicity', 'environmental damage'],
     antonyms: ['purity', 'cleanliness', 'environmental health']
   },
@@ -87,9 +87,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the trapping of the sun\'s warmth in a planet\'s lower atmosphere',
     translation: '温室效应',
-    example: 'The greenhouse effect is intensified by carbon dioxide emissions.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The greenhouse effect is intensified by carbon dioxide emissions.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['global warming', 'climate warming', 'atmospheric heating'],
     antonyms: ['cooling effect', 'heat reflection']
   },
@@ -100,9 +100,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the amount of carbon dioxide released into the atmosphere',
     translation: '碳足迹',
-    example: 'Reducing your carbon footprint helps combat climate change.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Reducing your carbon footprint helps combat climate change.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['carbon emissions', 'environmental impact', 'CO2 output'],
     antonyms: ['carbon neutrality', 'zero emissions']
   },
@@ -113,9 +113,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'energy from a source that is not depleted when used',
     translation: '可再生能源',
-    example: 'Solar and wind power are examples of renewable energy.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Solar and wind power are examples of renewable energy.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['sustainable energy', 'clean energy', 'green energy'],
     antonyms: ['fossil fuels', 'non-renewable energy', 'finite energy']
   },
@@ -126,9 +126,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'natural fuel formed from the remains of living organisms',
     translation: '化石燃料',
-    example: 'The world is gradually moving away from fossil fuels.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The world is gradually moving away from fossil fuels.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['coal', 'oil', 'natural gas'],
     antonyms: ['renewable energy', 'clean energy', 'sustainable fuel']
   },
@@ -139,9 +139,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the process of eroding or being eroded by wind, water, or other natural agents',
     translation: '侵蚀',
-    example: 'Soil erosion is a major problem in agricultural areas.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['Soil erosion is a major problem in agricultural areas.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['weathering', 'wearing away', 'degradation'],
     antonyms: ['deposition', 'accumulation', 'preservation']
   },
@@ -152,9 +152,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the natural home or environment of an animal, plant, or organism',
     translation: '栖息地',
-    example: 'Polar bears are losing their natural habitat due to ice melting.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Polar bears are losing their natural habitat due to ice melting.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['environment', 'dwelling', 'natural home'],
     antonyms: ['artificial environment', 'captivity', 'unnatural setting']
   },
@@ -165,9 +165,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the state or process of a species ceasing to exist',
     translation: '灭绝',
-    example: 'Many species face extinction due to human activities.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Many species face extinction due to human activities.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['elimination', 'disappearance', 'dying out'],
     antonyms: ['survival', 'preservation', 'continuation']
   },
@@ -178,9 +178,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a species of animal or plant that is seriously at risk of extinction',
     translation: '濒危物种',
-    example: 'The giant panda was once an endangered species.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The giant panda was once an endangered species.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['threatened species', 'at-risk species', 'vulnerable species'],
     antonyms: ['abundant species', 'thriving species', 'stable population']
   },
@@ -191,9 +191,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'long-term shifts in global or regional climate patterns',
     translation: '气候变化',
-    example: 'Climate change is affecting weather patterns worldwide.',
-    difficulty: 'intermediate',
-    frequency: 'very_high',
+    examples: ['Climate change is affecting weather patterns worldwide.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['global warming', 'climate shift', 'environmental change'],
     antonyms: ['climate stability', 'weather consistency']
   },
@@ -204,9 +204,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a layer in the earth\'s stratosphere containing a high concentration of ozone',
     translation: '臭氧层',
-    example: 'The ozone layer protects Earth from harmful ultraviolet radiation.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['The ozone layer protects Earth from harmful ultraviolet radiation.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['ozone shield', 'atmospheric protection', 'UV barrier'],
     antonyms: ['ozone depletion', 'atmospheric hole']
   },
@@ -217,9 +217,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the action or process of converting waste into reusable material',
     translation: '回收利用',
-    example: 'Recycling helps reduce the amount of waste in landfills.',
-    difficulty: 'beginner',
-    frequency: 'high',
+    examples: ['Recycling helps reduce the amount of waste in landfills.'],
+    difficulty: 'easy',
+    frequency: 5,
     synonyms: ['reprocessing', 'reusing', 'waste conversion'],
     antonyms: ['disposal', 'waste', 'throwing away']
   },
@@ -230,9 +230,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a site for the disposal of waste materials by burial',
     translation: '垃圾填埋场',
-    example: 'The city is running out of space for new landfills.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['The city is running out of space for new landfills.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['dump', 'waste site', 'garbage disposal'],
     antonyms: ['recycling center', 'clean site', 'preserved land']
   },
@@ -243,9 +243,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'an area of land that drains all streams and rainfall to a common outlet',
     translation: '流域，分水岭',
-    example: 'Protecting the watershed is crucial for water quality.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['Protecting the watershed is crucial for water quality.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['drainage basin', 'catchment area', 'river basin'],
     antonyms: ['water divide', 'ridge line']
   },
@@ -256,9 +256,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a body of permeable rock that can contain or transmit groundwater',
     translation: '含水层',
-    example: 'The aquifer provides fresh water to the entire region.',
-    difficulty: 'advanced',
-    frequency: 'low',
+    examples: ['The aquifer provides fresh water to the entire region.'],
+    difficulty: 'hard',
+    frequency: 2,
     synonyms: ['groundwater reservoir', 'water-bearing rock', 'underground water source'],
     antonyms: ['impermeable layer', 'dry rock', 'water barrier']
   },
@@ -269,9 +269,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the process by which fertile land becomes desert',
     translation: '沙漠化',
-    example: 'Desertification threatens agricultural productivity in many regions.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['Desertification threatens agricultural productivity in many regions.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['land degradation', 'soil deterioration', 'aridification'],
     antonyms: ['land restoration', 'reforestation', 'soil improvement']
   },
@@ -282,9 +282,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the process whereby the proportion of people living in urban areas increases',
     translation: '城市化',
-    example: 'Rapid urbanization has led to increased environmental challenges.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Rapid urbanization has led to increased environmental challenges.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['city development', 'metropolitan growth', 'urban expansion'],
     antonyms: ['ruralization', 'countryside development', 'urban decline']
   },
@@ -295,9 +295,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the arrangement of the natural and artificial features of an area',
     translation: '地形，地貌',
-    example: 'The region\'s mountainous topography makes transportation difficult.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['The region\'s mountainous topography makes transportation difficult.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['terrain', 'landscape', 'physical features'],
     antonyms: ['flat terrain', 'uniform landscape']
   },
@@ -308,9 +308,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the gradual movement of the continents across the earth\'s surface',
     translation: '大陆漂移',
-    example: 'Continental drift explains why similar fossils are found on different continents.',
-    difficulty: 'advanced',
-    frequency: 'low',
+    examples: ['Continental drift explains why similar fossils are found on different continents.'],
+    difficulty: 'hard',
+    frequency: 2,
     synonyms: ['plate tectonics', 'continental movement', 'geological drift'],
     antonyms: ['continental stability', 'fixed landmasses']
   },
@@ -321,9 +321,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'large pieces of the Earth\'s crust that move slowly over the mantle',
     translation: '构造板块',
-    example: 'Earthquakes often occur at the boundaries of tectonic plates.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['Earthquakes often occur at the boundaries of tectonic plates.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['crustal plates', 'geological plates', 'lithospheric plates'],
     antonyms: ['stable crust', 'fixed surface']
   },
@@ -334,9 +334,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the frequency and magnitude of earthquakes in a given area',
     translation: '地震活动',
-    example: 'The region shows increased seismic activity near fault lines.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['The region shows increased seismic activity near fault lines.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['earthquake activity', 'ground movement', 'geological instability'],
     antonyms: ['seismic stability', 'geological calm', 'tectonic quiet']
   },
@@ -347,9 +347,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'an explosion of lava, ash, and gases from a volcano',
     translation: '火山爆发',
-    example: 'The volcanic eruption affected air travel across the region.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['The volcanic eruption affected air travel across the region.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['volcanic explosion', 'lava eruption', 'volcanic outburst'],
     antonyms: ['volcanic dormancy', 'geological calm']
   },
@@ -360,9 +360,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a slowly moving mass or river of ice formed by snow accumulation',
     translation: '冰川',
-    example: 'Many glaciers are retreating due to global warming.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['Many glaciers are retreating due to global warming.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['ice sheet', 'ice mass', 'frozen river'],
     antonyms: ['liquid water', 'flowing river', 'melted ice']
   },
@@ -373,9 +373,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a thick subsurface layer of soil that remains frozen throughout the year',
     translation: '永久冻土',
-    example: 'Permafrost in the Arctic is melting due to rising temperatures.',
-    difficulty: 'advanced',
-    frequency: 'low',
+    examples: ['Permafrost in the Arctic is melting due to rising temperatures.'],
+    difficulty: 'hard',
+    frequency: 2,
     synonyms: ['permanently frozen ground', 'frozen subsoil', 'ice-bound earth'],
     antonyms: ['thawed ground', 'unfrozen soil', 'temperate earth']
   },
@@ -386,9 +386,9 @@ export const environmentToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a ridge of rock in the sea formed by the growth and deposit of coral',
     translation: '珊瑚礁',
-    example: 'Coral reefs are among the most biodiverse ecosystems on Earth.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['Coral reefs are among the most biodiverse ecosystems on Earth.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['coral formation', 'marine reef', 'underwater ecosystem'],
     antonyms: ['barren seabed', 'lifeless ocean floor']
   }
@@ -441,12 +441,12 @@ export const getHumanImpactWords = () =>
 // 按频率筛选环境地理词汇
 export const getHighFrequencyEnvironmentWords = () => 
   environmentToeflWords.filter(word => 
-    word.frequency === 'very_high' || word.frequency === 'high'
+    word.frequency >= 4
   );
 
 // 按难度筛选环境地理词汇
 export const getAdvancedEnvironmentWords = () => 
-  environmentToeflWords.filter(word => word.difficulty === 'advanced');
+  environmentToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateEnvironmentWords = () => 
   environmentToeflWords.filter(word => word.difficulty === 'intermediate');

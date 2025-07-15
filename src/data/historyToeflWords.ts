@@ -9,9 +9,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the stage of human social development and organization that is considered most advanced',
     translation: '文明',
-    example: 'Ancient Egyptian civilization made remarkable achievements in architecture.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Ancient Egyptian civilization made remarkable achievements in architecture.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['culture', 'society', 'development'],
     antonyms: ['barbarism', 'primitiveness', 'savagery']
   },
@@ -22,9 +22,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'an extensive group of states or countries under a single supreme authority',
     translation: '帝国',
-    example: 'The Roman Empire lasted for over a thousand years.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The Roman Empire lasted for over a thousand years.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['dominion', 'realm', 'kingdom'],
     antonyms: ['republic', 'democracy', 'city-state']
   },
@@ -35,9 +35,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a forcible overthrow of a government or social order in favor of a new system',
     translation: '革命',
-    example: 'The Industrial Revolution transformed society in the 18th century.',
-    difficulty: 'intermediate',
-    frequency: 'very_high',
+    examples: ['The Industrial Revolution transformed society in the 18th century.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['uprising', 'rebellion', 'transformation'],
     antonyms: ['stability', 'conservation', 'status quo']
   },
@@ -48,9 +48,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a system of government by the whole population through elected representatives',
     translation: '民主',
-    example: 'Ancient Athens is often considered the birthplace of democracy.',
-    difficulty: 'intermediate',
-    frequency: 'very_high',
+    examples: ['Ancient Athens is often considered the birthplace of democracy.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['self-government', 'popular rule', 'republic'],
     antonyms: ['dictatorship', 'autocracy', 'tyranny']
   },
@@ -61,9 +61,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a form of government with a monarch at the head',
     translation: '君主制',
-    example: 'The United Kingdom is a constitutional monarchy.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['The United Kingdom is a constitutional monarchy.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['kingdom', 'royal rule', 'crown government'],
     antonyms: ['republic', 'democracy', 'anarchy']
   },
@@ -74,9 +74,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the dominant social system in medieval Europe',
     translation: '封建主义',
-    example: 'Feudalism was characterized by the exchange of land for military service.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['Feudalism was characterized by the exchange of land for military service.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['medieval system', 'manorialism', 'serfdom'],
     antonyms: ['capitalism', 'socialism', 'modern democracy']
   },
@@ -87,9 +87,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the practice of acquiring full or partial political control over another country',
     translation: '殖民主义',
-    example: 'European colonialism had lasting effects on many African nations.',
-    difficulty: 'advanced',
-    frequency: 'high',
+    examples: ['European colonialism had lasting effects on many African nations.'],
+    difficulty: 'hard',
+    frequency: 5,
     synonyms: ['imperialism', 'expansion', 'domination'],
     antonyms: ['independence', 'self-determination', 'decolonization']
   },
@@ -100,9 +100,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a policy of extending a country\'s power through diplomacy or military force',
     translation: '帝国主义',
-    example: 'The age of imperialism saw European powers expand globally.',
-    difficulty: 'advanced',
-    frequency: 'high',
+    examples: ['The age of imperialism saw European powers expand globally.'],
+    difficulty: 'hard',
+    frequency: 5,
     synonyms: ['expansionism', 'colonialism', 'domination'],
     antonyms: ['isolationism', 'non-interference', 'independence']
   },
@@ -113,9 +113,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'identification with one\'s own nation and support for its interests',
     translation: '民族主义',
-    example: 'Nationalism played a key role in the unification of Germany.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Nationalism played a key role in the unification of Germany.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['patriotism', 'national pride', 'sovereignty'],
     antonyms: ['internationalism', 'globalism', 'cosmopolitanism']
   },
@@ -126,9 +126,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the revival of European art and literature in the 14th-16th centuries',
     translation: '文艺复兴',
-    example: 'The Renaissance marked a period of great cultural achievement.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The Renaissance marked a period of great cultural achievement.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['rebirth', 'revival', 'awakening'],
     antonyms: ['decline', 'dark age', 'regression']
   },
@@ -139,9 +139,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'an 18th-century philosophical movement emphasizing reason and individualism',
     translation: '启蒙运动',
-    example: 'The Enlightenment influenced modern concepts of human rights.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['The Enlightenment influenced modern concepts of human rights.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['intellectual awakening', 'age of reason', 'philosophical movement'],
     antonyms: ['ignorance', 'superstition', 'dark age']
   },
@@ -152,9 +152,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a 16th-century movement for religious reform in the Christian Church',
     translation: '宗教改革',
-    example: 'The Protestant Reformation changed the religious landscape of Europe.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['The Protestant Reformation changed the religious landscape of Europe.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['religious reform', 'church reform', 'spiritual renewal'],
     antonyms: ['counter-reformation', 'religious conservatism']
   },
@@ -165,9 +165,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the rapid development of industry in the late 18th and 19th centuries',
     translation: '工业革命',
-    example: 'The Industrial Revolution began in Britain and spread worldwide.',
-    difficulty: 'intermediate',
-    frequency: 'very_high',
+    examples: ['The Industrial Revolution began in Britain and spread worldwide.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['industrialization', 'technological revolution', 'mechanization'],
     antonyms: ['agricultural society', 'pre-industrial era', 'deindustrialization']
   },
@@ -178,9 +178,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'an economic system based on private ownership of the means of production',
     translation: '资本主义',
-    example: 'Capitalism emerged as the dominant economic system in the West.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Capitalism emerged as the dominant economic system in the West.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['free market', 'private enterprise', 'market economy'],
     antonyms: ['socialism', 'communism', 'planned economy']
   },
@@ -191,9 +191,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a political and economic theory advocating collective ownership',
     translation: '社会主义',
-    example: 'Socialist ideas gained popularity during the 19th century.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Socialist ideas gained popularity during the 19th century.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['collective ownership', 'social democracy', 'public ownership'],
     antonyms: ['capitalism', 'individualism', 'private enterprise']
   },
@@ -204,9 +204,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a system of government that requires complete subservience to the state',
     translation: '极权主义',
-    example: 'Totalitarianism was a defining feature of several 20th-century regimes.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['Totalitarianism was a defining feature of several 20th-century regimes.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['authoritarianism', 'dictatorship', 'absolute rule'],
     antonyms: ['democracy', 'freedom', 'liberalism']
   },
@@ -217,9 +217,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a state of political hostility between countries without actual warfare',
     translation: '冷战',
-    example: 'The Cold War dominated international relations for decades.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The Cold War dominated international relations for decades.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['political tension', 'ideological conflict', 'diplomatic standoff'],
     antonyms: ['hot war', 'peace', 'cooperation']
   },
@@ -230,9 +230,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the deliberate killing of a large group of people of a particular ethnic group',
     translation: '种族灭绝',
-    example: 'The international community works to prevent genocide.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['The international community works to prevent genocide.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['ethnic cleansing', 'mass murder', 'extermination'],
     antonyms: ['protection', 'preservation', 'tolerance']
   },
@@ -243,9 +243,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the profession, activity, or skill of managing international relations',
     translation: '外交',
-    example: 'Skilled diplomacy helped prevent the conflict from escalating.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Skilled diplomacy helped prevent the conflict from escalating.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['international relations', 'negotiation', 'statecraft'],
     antonyms: ['warfare', 'aggression', 'hostility']
   },
@@ -256,9 +256,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a formally concluded and ratified agreement between countries',
     translation: '条约',
-    example: 'The peace treaty ended the long-standing conflict.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The peace treaty ended the long-standing conflict.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['agreement', 'pact', 'accord'],
     antonyms: ['conflict', 'disagreement', 'hostility']
   },
@@ -269,9 +269,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a union or association formed for mutual benefit',
     translation: '联盟',
-    example: 'NATO is a military alliance between Western nations.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['NATO is a military alliance between Western nations.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['coalition', 'partnership', 'union'],
     antonyms: ['opposition', 'rivalry', 'isolation']
   },
@@ -282,9 +282,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'supreme power or authority',
     translation: '主权',
-    example: 'National sovereignty is a fundamental principle of international law.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['National sovereignty is a fundamental principle of international law.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['independence', 'autonomy', 'self-rule'],
     antonyms: ['dependence', 'subjugation', 'colonization']
   },
@@ -295,9 +295,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a body of fundamental principles according to which a state is governed',
     translation: '宪法',
-    example: 'The Constitution guarantees basic rights to all citizens.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The Constitution guarantees basic rights to all citizens.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['fundamental law', 'charter', 'basic principles'],
     antonyms: ['lawlessness', 'anarchy', 'arbitrary rule']
   },
@@ -308,9 +308,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a minor change or addition designed to improve a text or piece of legislation',
     translation: '修正案',
-    example: 'The First Amendment protects freedom of speech.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['The First Amendment protects freedom of speech.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['modification', 'revision', 'change'],
     antonyms: ['original text', 'unchanged version']
   },
@@ -321,9 +321,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the rights of citizens to political and social freedom and equality',
     translation: '民权',
-    example: 'The civil rights movement fought for racial equality.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The civil rights movement fought for racial equality.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['human rights', 'individual freedoms', 'equal rights'],
     antonyms: ['discrimination', 'oppression', 'inequality']
   },
@@ -334,9 +334,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the right to vote in political elections',
     translation: '选举权',
-    example: 'Women\'s suffrage was achieved in many countries in the early 20th century.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['Women\'s suffrage was achieved in many countries in the early 20th century.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['voting rights', 'franchise', 'electoral participation'],
     antonyms: ['disenfranchisement', 'voting restrictions']
   },
@@ -347,9 +347,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'information used to promote a particular political cause or point of view',
     translation: '宣传',
-    example: 'Wartime propaganda was used to boost morale and support.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['Wartime propaganda was used to boost morale and support.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['publicity', 'promotion', 'persuasion'],
     antonyms: ['objective information', 'unbiased reporting', 'truth']
   },
@@ -360,9 +360,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a system of ideas and ideals forming the basis of economic or political theory',
     translation: '意识形态',
-    example: 'Political parties are often defined by their ideology.',
-    difficulty: 'advanced',
-    frequency: 'high',
+    examples: ['Political parties are often defined by their ideology.'],
+    difficulty: 'hard',
+    frequency: 5,
     synonyms: ['belief system', 'doctrine', 'philosophy'],
     antonyms: ['pragmatism', 'non-ideological approach']
   },
@@ -373,9 +373,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'movement of people to a new area or country in order to find work or better living conditions',
     translation: '移民，迁移',
-    example: 'Economic migration has shaped the demographics of many cities.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Economic migration has shaped the demographics of many cities.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['immigration', 'relocation', 'population movement'],
     antonyms: ['staying put', 'settlement', 'permanent residence']
   },
@@ -386,9 +386,9 @@ export const historyToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the process of taking in and fully understanding information or ideas',
     translation: '同化',
-    example: 'Cultural assimilation can be a complex process for immigrants.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['Cultural assimilation can be a complex process for immigrants.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['integration', 'absorption', 'adaptation'],
     antonyms: ['segregation', 'separation', 'cultural preservation']
   }
@@ -453,18 +453,18 @@ export const getCulturalMovementsWords = () =>
 // 按频率筛选历史词汇
 export const getHighFrequencyHistoryWords = () => 
   historyToeflWords.filter(word => 
-    word.frequency === 'very_high' || word.frequency === 'high'
+    word.frequency >= 4
   );
 
 // 按难度筛选历史词汇
 export const getAdvancedHistoryWords = () => 
-  historyToeflWords.filter(word => word.difficulty === 'advanced');
+  historyToeflWords.filter(word => word.difficulty === 'hard');
 
 export const getIntermediateHistoryWords = () => 
-  historyToeflWords.filter(word => word.difficulty === 'intermediate');
+  historyToeflWords.filter(word => word.difficulty === 'medium');
 
 export const getBeginnerHistoryWords = () => 
-  historyToeflWords.filter(word => word.difficulty === 'beginner');
+  historyToeflWords.filter(word => word.difficulty === 'easy');
 
 // 按社会概念筛选词汇
 export const getSocialConceptsWords = () => 

@@ -9,9 +9,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'adjective',
     definition: 'concerned with beauty or the appreciation of beauty',
     translation: '美学的，审美的',
-    example: 'The museum\'s aesthetic appeal attracts visitors from around the world.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The museum\'s aesthetic appeal attracts visitors from around the world.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['artistic', 'beautiful', 'pleasing'],
     antonyms: ['unaesthetic', 'ugly', 'displeasing']
   },
@@ -22,9 +22,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the nature of something\'s ingredients or constituents; the way in which a whole is made up',
     translation: '构图，作品，组成',
-    example: 'The composition of the painting creates a sense of balance and harmony.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The composition of the painting creates a sense of balance and harmony.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['arrangement', 'structure', 'organization'],
     antonyms: ['decomposition', 'disorganization', 'chaos']
   },
@@ -35,9 +35,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the art of drawing solid objects on a two-dimensional surface',
     translation: '透视法，观点',
-    example: 'Renaissance artists mastered the technique of linear perspective.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Renaissance artists mastered the technique of linear perspective.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['viewpoint', 'outlook', 'angle'],
     antonyms: ['distortion', 'misrepresentation']
   },
@@ -48,9 +48,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the art of making two- or three-dimensional representative forms',
     translation: '雕塑',
-    example: 'Michelangelo\'s sculpture of David is considered a masterpiece.',
-    difficulty: 'beginner',
-    frequency: 'high',
+    examples: ['Michelangelo\'s sculpture of David is considered a masterpiece.'],
+    difficulty: 'easy',
+    frequency: 5,
     synonyms: ['carving', 'statue', 'figurine'],
     antonyms: ['painting', 'drawing', 'sketch']
   },
@@ -61,9 +61,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a painting, drawing, photograph, or engraving of a person',
     translation: '肖像，画像',
-    example: 'The artist painted a beautiful portrait of the queen.',
-    difficulty: 'beginner',
-    frequency: 'high',
+    examples: ['The artist painted a beautiful portrait of the queen.'],
+    difficulty: 'easy',
+    frequency: 5,
     synonyms: ['likeness', 'image', 'depiction'],
     antonyms: ['landscape', 'still life', 'abstract']
   },
@@ -74,9 +74,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'adjective',
     definition: 'existing in thought or as an idea but not having a physical existence',
     translation: '抽象的',
-    example: 'Abstract art often focuses on color and form rather than realistic representation.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Abstract art often focuses on color and form rather than realistic representation.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['conceptual', 'theoretical', 'non-representational'],
     antonyms: ['concrete', 'realistic', 'representational']
   },
@@ -87,9 +87,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a style of painting developed in France in the 1860s',
     translation: '印象派',
-    example: 'Monet was a leading figure in the Impressionism movement.',
-    difficulty: 'intermediate',
-    frequency: 'medium',
+    examples: ['Monet was a leading figure in the Impressionism movement.'],
+    difficulty: 'medium',
+    frequency: 4,
     synonyms: ['artistic movement', 'painting style', 'art school'],
     antonyms: ['realism', 'classicism', 'expressionism']
   },
@@ -100,9 +100,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the revival of art and literature in the 14th-16th centuries',
     translation: '文艺复兴',
-    example: 'The Renaissance period produced many great works of art and literature.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The Renaissance period produced many great works of art and literature.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['revival', 'rebirth', 'cultural awakening'],
     antonyms: ['decline', 'dark age', 'regression']
   },
@@ -113,9 +113,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'adjective',
     definition: 'relating to a highly decorative style of European art and architecture',
     translation: '巴洛克式的',
-    example: 'The baroque cathedral features elaborate decorations and ornate details.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['The baroque cathedral features elaborate decorations and ornate details.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['ornate', 'elaborate', 'decorative'],
     antonyms: ['simple', 'minimalist', 'plain']
   },
@@ -126,9 +126,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'an early 20th-century style of painting in which objects are represented as geometric shapes',
     translation: '立体主义',
-    example: 'Picasso was one of the founders of Cubism.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['Picasso was one of the founders of Cubism.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['geometric art', 'modernist movement', 'avant-garde'],
     antonyms: ['realism', 'naturalism', 'traditional art']
   },
@@ -139,9 +139,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a 20th-century artistic movement that sought to release creative potential of the unconscious mind',
     translation: '超现实主义',
-    example: 'Salvador Dalí was a prominent artist in the Surrealism movement.',
-    difficulty: 'advanced',
-    frequency: 'medium',
+    examples: ['Salvador Dalí was a prominent artist in the Surrealism movement.'],
+    difficulty: 'hard',
+    frequency: 4,
     synonyms: ['dreamlike art', 'unconscious expression', 'fantasy art'],
     antonyms: ['realism', 'naturalism', 'rational art']
   },
@@ -152,9 +152,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a category of artistic composition characterized by similarities in form, style, or subject matter',
     translation: '体裁，类型',
-    example: 'Science fiction is a popular genre in modern literature.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['Science fiction is a popular genre in modern literature.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['category', 'type', 'classification'],
     antonyms: ['mixture', 'hybrid', 'cross-genre']
   },
@@ -165,9 +165,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a spoken or written account of connected events; a story',
     translation: '叙述，故事',
-    example: 'The novel\'s narrative structure is complex and engaging.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The novel\'s narrative structure is complex and engaging.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['story', 'account', 'tale'],
     antonyms: ['silence', 'non-fiction', 'factual report']
   },
@@ -178,9 +178,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'a figure of speech in which a word is applied to something it does not literally denote',
     translation: '隐喻，比喻',
-    example: 'The poet used the metaphor of a journey to describe life.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The poet used the metaphor of a journey to describe life.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['analogy', 'comparison', 'figure of speech'],
     antonyms: ['literal statement', 'direct description', 'factual account']
   },
@@ -191,9 +191,9 @@ export const artsToeflWords: Word[] = [
     partOfSpeech: 'noun',
     definition: 'the use of symbols to represent ideas or qualities',
     translation: '象征主义',
-    example: 'The dove is often used as symbolism for peace.',
-    difficulty: 'intermediate',
-    frequency: 'high',
+    examples: ['The dove is often used as symbolism for peace.'],
+    difficulty: 'medium',
+    frequency: 5,
     synonyms: ['representation', 'allegory', 'imagery'],
     antonyms: ['literalism', 'directness', 'explicitness']
   },
@@ -394,72 +394,85 @@ export const artsToeflWords: Word[] = [
   }
 ];
 
-// 按艺术类型筛选词汇
+// 按艺术时期筛选
+export const getArtsByPeriod = (period: string) => 
+  artsToeflWords.filter(word => 
+    word.synonyms?.some(synonym => synonym.toLowerCase().includes(period.toLowerCase()))
+  );
+
+// 按艺术形式筛选
+export const getArtsByForm = (form: string) => 
+  artsToeflWords.filter(word => 
+    word.word.toLowerCase().includes(form.toLowerCase()) ||
+    word.definition.toLowerCase().includes(form.toLowerCase())
+  );
+
+// 按文学技巧筛选
+export const getArtsByTechnique = (technique: string) => 
+  artsToeflWords.filter(word => 
+    word.definition.toLowerCase().includes(technique.toLowerCase()) ||
+    word.synonyms?.some(synonym => synonym.toLowerCase().includes(technique.toLowerCase()))
+  );
+
+// 按艺术运动筛选
+export const getArtsByMovement = (movement: string) => 
+  artsToeflWords.filter(word => 
+    word.word.toLowerCase().includes(movement.toLowerCase()) ||
+    word.definition.toLowerCase().includes(movement.toLowerCase())
+  );
+
+// 按频率筛选
+export const getHighFrequencyArtsWords = () => 
+  artsToeflWords.filter(word => word.frequency >= 4);
+
+export const getMediumFrequencyArtsWords = () => 
+  artsToeflWords.filter(word => word.frequency === 3);
+
+export const getLowFrequencyArtsWords = () => 
+  artsToeflWords.filter(word => word.frequency <= 2);
+
+// 按难度筛选
+export const getEasyArtsWords = () => 
+  artsToeflWords.filter(word => word.difficulty === 'easy');
+
+export const getMediumArtsWords = () => 
+  artsToeflWords.filter(word => word.difficulty === 'medium');
+
+export const getHardArtsWords = () => 
+  artsToeflWords.filter(word => word.difficulty === 'hard');
+
+// 按视觉艺术筛选
 export const getVisualArtsWords = () => 
   artsToeflWords.filter(word => 
-    ['aesthetic', 'composition', 'perspective', 'sculpture', 'portrait', 'abstract'].includes(word.word)
+    ['painting', 'sculpture', 'drawing', 'art'].some(term => 
+      word.definition.toLowerCase().includes(term) ||
+      word.synonyms?.some(synonym => synonym.toLowerCase().includes(term))
+    )
   );
 
-export const getArtMovementsWords = () => 
+// 按文学相关筛选
+export const getLiteraryArtsWords = () => 
   artsToeflWords.filter(word => 
-    ['impressionism', 'renaissance', 'baroque', 'cubism', 'surrealism'].includes(word.word)
+    ['literature', 'story', 'narrative', 'writing'].some(term => 
+      word.definition.toLowerCase().includes(term) ||
+      word.synonyms?.some(synonym => synonym.toLowerCase().includes(term))
+    )
   );
 
-// 按文学类型筛选词汇
-export const getLiteraryGenresWords = () => 
+// 按艺术理论筛选
+export const getArtTheoryWords = () => 
   artsToeflWords.filter(word => 
-    ['genre', 'tragedy', 'comedy', 'epic', 'sonnet'].includes(word.word)
+    ['theory', 'concept', 'principle', 'aesthetic'].some(term => 
+      word.definition.toLowerCase().includes(term) ||
+      word.word.toLowerCase().includes(term)
+    )
   );
 
-export const getLiteraryDevicesWords = () => 
+// 按创作技巧筛选
+export const getCreativeTechniqueWords = () => 
   artsToeflWords.filter(word => 
-    ['metaphor', 'symbolism', 'allegory', 'irony', 'satire', 'foreshadowing'].includes(word.word)
-  );
-
-export const getPoetryWords = () => 
-  artsToeflWords.filter(word => 
-    ['sonnet', 'rhyme', 'meter', 'stanza'].includes(word.word)
-  );
-
-export const getNarrativeElementsWords = () => 
-  artsToeflWords.filter(word => 
-    ['narrative', 'protagonist', 'antagonist', 'climax', 'denouement'].includes(word.word)
-  );
-
-// 按频率筛选艺术文学词汇
-export const getHighFrequencyArtsWords = () => 
-  artsToeflWords.filter(word => 
-    word.frequency === 'very_high' || word.frequency === 'high'
-  );
-
-// 按难度筛选艺术文学词汇
-export const getAdvancedArtsWords = () => 
-  artsToeflWords.filter(word => word.difficulty === 'advanced');
-
-export const getIntermediateArtsWords = () => 
-  artsToeflWords.filter(word => word.difficulty === 'intermediate');
-
-export const getBeginnerArtsWords = () => 
-  artsToeflWords.filter(word => word.difficulty === 'beginner');
-
-// 按创作技巧筛选词汇
-export const getArtisticTechniquesWords = () => 
-  artsToeflWords.filter(word => 
-    ['composition', 'perspective', 'aesthetic', 'abstract'].includes(word.word)
-  );
-
-export const getLiteraryTechniquesWords = () => 
-  artsToeflWords.filter(word => 
-    ['metaphor', 'symbolism', 'irony', 'foreshadowing', 'allegory'].includes(word.word)
-  );
-
-// 按历史时期筛选词汇
-export const getClassicalArtsWords = () => 
-  artsToeflWords.filter(word => 
-    ['renaissance', 'baroque', 'epic', 'tragedy', 'comedy'].includes(word.word)
-  );
-
-export const getModernArtsWords = () => 
-  artsToeflWords.filter(word => 
-    ['impressionism', 'cubism', 'surrealism', 'abstract'].includes(word.word)
+    ['technique', 'method', 'style', 'approach'].some(term => 
+      word.definition.toLowerCase().includes(term) ||
+      word.synonyms?.some(synonym => synonym.toLowerCase().includes(term))
+    )
   );
